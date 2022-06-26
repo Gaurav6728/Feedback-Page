@@ -1,0 +1,438 @@
+ 	<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME</title>
+<style>
+</style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<center><h1  style="border: 2px solid grey;border-radius:50px;font-size:80px;font-family: 'Source Serif Pro', serif;color:black;" >STUDENTS FEEDBACK SYSTEM</h1>
+<h3>Branch:Computer</h3>
+<h3>SEM:5th</h3>
+<H4>DATE:</H4>
+<pre style="font-size:20px;font-family: 'Source Serif Pro', serif;color:black;">Note: The student is required to rate the following parameters, by choosing the appropriate number.
+5 - Excellent	 4 - Very Good    3 - Good    2 - Average    1 - Poor
+</pre>
+</center>
+ 	 	<form   style = "font-family: 'Source Serif Pro', serif;" action="submit1.php" method="POST" >
+ 		<table>
+ 	<tr  >
+ 			<td  style =  "font-size:35px; padding-left:50px;padding-right:30px;  " >PARAMETERS</td> 
+ 			<td style = "font-size:35px;padding-left:20px;  " >	SUBJECTS AND ATTRIBUTES</td> 
+ 	</tr>
+
+<br>
+<tr>
+
+	<td><h1 style="margin-left: 110px;">CO1</h1></td>
+	<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel1m" class = "input-control"><option value="1">1</option><option >2</option><option>3</option><option>4</option><option>5</option>	</select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbspAttainment:<select name="att1m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use1m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+</td>
+	<td class = " form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select  name="rel1dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att1dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbspUsefulness:<select name="use1dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></td>
+	<td class = " form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel1de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbspAttainment:<select name="att1de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use1de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+	<td class = " form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance: <select name="rel1o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Attainment:<select name="att1o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use1o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></td>
+	<td class = " form-control">
+		PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel1p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Attainment:<select name="att1p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Usefulness:<select name="use1p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+
+</tr>
+
+<tr>
+	<td><hr></td>
+</tr>
+<tr>
+<td><h1 style="margin-left: 110px;">CO2</h1></td>
+
+	<td class = "form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel2m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att2m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbspUsefulness:<select name="use2m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+		</td>
+	<td class = "form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel2dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att2dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use2dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></td>
+	<td class = "form-control">
+		Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel2de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbspAttainment:<select name="att2de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use2de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+	<td class = "form-control">
+		CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel2o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp Attainment:<select name="att2o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp  Usefulness:<select name="use2o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		<td class="form-control">
+
+		PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel2p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbspAttainment:<select name="att2p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Usefulness:<select name="use2p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+		</td>
+				
+		
+		
+</tr>
+<tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 110px;">CO3</h1></td>
+		<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel3m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att3m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use3m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel3dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att3dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use3dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel3de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp Attainment:<select name="att3de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use3de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel3o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Attainment:<select name="att3o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use3o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel3p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAttainment:<select name="att3p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbspUsefulness:<select name="use3p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		</tr>
+		
+<tr>
+	<td><hr></td>
+</tr>
+
+
+<tr>
+<td><h1 style="margin-left: 110px;">CO4</h1></td>
+		<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel4m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att4m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp  Usefulness:<select name="use4m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel4dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att4dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbspUsefulness:<select name="use4dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control" >Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel4de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp  Attainment:<select name="att4de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use4de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel4o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Attainment:<select name="att4o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use4o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel4p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAttainment:<select name="att4p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Usefulness:<select name="use4p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+
+</tr>
+
+<tr>
+	<td><hr></td>
+</tr>
+
+
+<tr>
+<td><h1 style="margin-left: 110px;">CO5</h1></td>
+		<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel5m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att5m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use5m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel5dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att5dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use5dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel5de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp  Attainment:<select name="att5de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp &nbspUsefulness:<select name="use5de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel5o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Attainment:<select name="att5o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use5o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel5p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAttainment:<select name="att5p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Usefulness:<select name="use5p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+
+</tr>
+
+<tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 110px;">CO6</h1></td>
+		<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel6m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att6m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbspUsefulness:<select name="use6m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel6dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att6dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbspUsefulness:<select name="use6dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel6de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp Attainment:<select name="att6de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp &nbspUsefulness:<select name="use6de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel6o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Attainment:<select name="att6o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp Usefulness:<select name="use6o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel6p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Attainment:<select name="att6p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Usefulness:<select name="use6p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+</tr>
+
+<tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 110px;">CO7</h1></td>
+		<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel7m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att7m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbspUsefulness:<select name="use7m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel7dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att7dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use7dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel7de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp  Attainment:<select name="att7de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp &nbsp Usefulness:<select name="use7de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel7o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp  Attainment:<select name="att7o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use7o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel7p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Attainment:<select name="att7p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Usefulness:<select name="use7p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+
+</tr>
+
+<tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 110px;">CO8</h1></td>
+		<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel8m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att8m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use8m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel8dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att8dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use8dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel8de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp Attainment:<select name="att8de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp &nbsp Usefulness:<select name="use8de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel8o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp  Attainment:<select name="att8o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use8o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel8p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp  Attainment:<select name="att8p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Usefulness:<select name="use8p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+	</tr>
+<tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 110px;">CO9</h1></td>
+		<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel9m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att9m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbspUsefulness:<select name="use9m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel9dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att9dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use9dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel9de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp  Attainment:<select name="att9de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp &nbsp Usefulness:<select name="use9de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel9o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp Attainment:<select name="att9o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use9o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel9p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp  Attainment:<select name="att9p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Usefulness:<select name="use9p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+
+</tr>
+<tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 110px;">CO10</h1></td>
+		<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel10m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbspAttainment:<select name="att10m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use10m"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel10dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="att10dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use10dc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel10de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp  Attainment:<select name="att10de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp &nbsp Usefulness:<select name="use10de"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel10o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp  Attainment:<select name="att10o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="use10o"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="rel10p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp  Attainment:<select name="att10p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp Usefulness:<select name="use10p"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+
+
+<tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 70px;">Curriculum</h1></td>
+		<td class="form-control">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="relcurrm"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="attcurrm"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="usecurrm"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="relcurrdc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Attainment:<select name="attcurrdc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp  Usefulness:<select name="usecurrdc"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="relcurrde"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp &nbsp  Attainment:<select name="attcurrde"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp &nbsp Usefulness:<select name="usecurrde"><option>1</option> <option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="relcurro"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp  Attainment:<select name="attcurro"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp Usefulness:<select name="usecurro"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+		
+		<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRelevance:<select name="relcurrp"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select >&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbspAttainment:<select name="attcurrp"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>&nbsp &nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp Usefulness:<select name="usecurrp"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select> </td>
+</tr>
+      <tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 00px;">Classes Engaged(Theory)</h1></td>
+       <td class="form-control ">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "ma_class_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+   <td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "dc_class_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "de_class_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+
+<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "os_class_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+   
+<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "pic_class_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+</tr>
+      <tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 00px;">Classes Engaged(Practical)</h1></td>
+<td class="form-control ">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "ma_class_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+   <td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "dc_class_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "de_class_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+
+<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "os_class_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "pic_class_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+</tr>
+       <tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 00px;">Instructions Methods And Media </h1></td>
+       <td class="form-control ">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "ma_class_ins" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+   <td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "dc_class_ins" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "de_class_ins" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+
+<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "os_class_ins" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "pic_class_ins" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+</tr>
+
+      <tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 00px;">Evaluation of Seminar,Assignments,Viva etc. </h1></td>
+<td class="form-control ">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "ma_class_eva" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+   <td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "dc_class_eva" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "de_class_eva" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+
+<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "os_class_eva" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "pic_class_eva" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+</tr>
+        <tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 00px;">Syllabus Covered(Theory) </h1></td>
+       <td class="form-control ">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "ma_syll_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+   <td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "dc_syll_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "de_syll_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+
+<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "os_syll_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "pic_syll_th" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+</tr>
+
+ <tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 00px;">Syllabus covered(Practical)</h1></td>
+       <td class="form-control ">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "ma_syll_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+   <td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "dc_syll_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "de_syll_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+
+<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "os_syll_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "pic_syll_pr" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+</tr>
+        <tr>
+	<td><hr></td>
+</tr>
+
+<tr>
+<td><h1 style="margin-left: 00px;">Facilities And Infrastructure </h1></td>
+            <td class="form-control ">SE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "ma_fac" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+   <td class="form-control">CC:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "dc_fac" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">Python:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "de_fac" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+
+<td class="form-control">CN:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "os_fac" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+
+<td class="form-control">PHP:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<select name = "pic_fac" ><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+   </td>
+</tr>
+<tr>
+	<td><hr></td>
+</tr>
+</table>
+<center><textarea style="height:200px;width:800px; " name="textarea" placeholder="Any Comments with regard to dissatisfaction with any aspect, further improvement in the teaching learning in the next semester or any other aspect:(NOT MORE THAN 50 WORDS)"></textarea>
+<hr>
+<p style = "font-style:italic;font-size:20px; ">Enter your Roll no and press the SUBMIT button to submit your feedback. </p>
+<input class = "form-control" style="font-size:20px;" placeholder="Enter here:" type="number" name="roll"><br>
+
+ <input type="submit" name = "submit" value = "SUBMIT" class="btn btn-info" value="submit" style="font-size:20px;margin-left: 40px;border-radius:20px;padding:8px 60px; ">
+<br><br><br></center>
+</form>
+
+</center>
+</body>
+</body>
+</html>
